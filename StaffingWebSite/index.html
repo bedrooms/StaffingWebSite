@@ -16,6 +16,8 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
+        <script src="Scripts/angular.min.js"></script>
+        <script src="js/cIndex.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -83,7 +85,7 @@
 
 		<!-- Two -->
 			<section id="two" class="wrapper style2 special">
-				<div class="container">
+				<div class="container" ng-app="spicyApp1" ng-controller="SpicyController">
 					<header class="major">
 						<h2>Our team</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, autem.</p>
@@ -92,7 +94,7 @@
 						<div class="row">
 							<section class="3u 6u(medium) 12u$(xsmall) profile">
 								<img src="images/profile_placeholder.gif" alt="" />
-								<h4>Hammer Rodriguez</h4>
+								<h4>{{CEO}}</h4>
 								<p>CEO</p>
 							</section>
 							<section class="3u 6u$(medium) 12u$(xsmall) profile">

@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html>
+<script src="Scripts/angular.min.js"></script>
+<script src="controller1.js"></script>
+<body>
+
+    <div ng-app="HelloWorldApp" ng-controller="HelloWorldController">
+        Name: <input ng-model="firstname">
+        <h1>{{greeting}}</h1>
+    </div>
+
+
+    <p>Change the name inside the input field, and the model data will change automatically, and therefore also the header will change its value.</p>
+
+</body>
+</html>
