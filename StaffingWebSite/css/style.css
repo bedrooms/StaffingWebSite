@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 @import url(font-awesome.min.css);
 @import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
 
@@ -357,8 +357,8 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #3cadd4;
-			border-color: #3cadd4;
+			background: #840e0e;
+			border-color: #840e0e;
 			color: #ffffff;
 			content: '\f00c';
 		}
@@ -465,7 +465,7 @@
 			}
 
 			.icon.rounded.color1 {
-				background-color: #3cadd4;
+				background-color: #840e0e;
 			}
 
 			.icon.rounded.color2 {
@@ -792,7 +792,7 @@
 		-o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #3cadd4;
+		background-color: #840e0e;
 		border-radius: 30px;
 		border: 0;
 		color: #ffffff !important;
@@ -1115,7 +1115,7 @@
 			}
 
 		.wrapper.style3 {
-			background-color: #3cadd4;
+			background-color: #840e0e;
 			color: #ffffff;
 		}
 
